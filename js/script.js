@@ -1,0 +1,1 @@
+var swiper=new Swiper(".mySwiper",{slidesPerView:3,grid:{rows:2},spaceBetween:30,pagination:{el:".swiper-pagination",clickable:!0}});let header=document.getElementById("header");window.addEventListener("scroll",()=>{200<=window.scrollY?header.style.background="rgba(30, 40, 53, 0.89)":header.style.background="transparent"});
